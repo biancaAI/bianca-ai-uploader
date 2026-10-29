@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bianca AI Uploader</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Bianca AI Uploader</h1>
+  <p class="sub">A personal upload tool for the YouTube channel <a href="https://www.youtube.com/channel/UCdZYywY250HK2pt1GkiQ7Uw">@Bianca_AIart_music</a></p>
+</header>
+<main>
+  <section>
+    <h2>What it is</h2>
+    <p>Bianca AI Uploader is a small command-line tool that runs only on the channel owner's own Windows PC.
+    It uses <strong>YouTube API Services</strong> (YouTube Data API v3) to upload the owner's original AI-generated animation videos
+    to the owner's own YouTube channel, together with the title, description, tags, thumbnail and the
+    "altered or synthetic content" disclosure.</p>
+    <p>It is not distributed, sold or offered to anyone else. The only user is the channel owner.</p>
+  </section>
+  <section>
+    <h2>What it does</h2>
+    <ul>
+      <li>Signs in with Google OAuth 2.0 (the owner's own account only).</li>
+      <li>Uploads a video file from the owner's PC (<code>videos.insert</code>).</li>
+      <li>Sets the custom thumbnail (<code>thumbnails.set</code>) and optionally adds the video to the owner's playlist (<code>playlistItems.insert</code>).</li>
+      <li>Reads the owner's channel name to confirm sign-in (<code>channels.list</code>).</li>
+    </ul>
+    <p>It does not read, collect or analyse any other user's data, comments or statistics.</p>
+  </section>
+  <section>
+    <h2>日本語</h2>
+    <p>Bianca AI Uploader は、チャンネル所有者が自分のPCだけで使う投稿用ツールです。YouTube API サービス（YouTube Data API v3）を使い、自作のAI動画を自分のチャンネルにアップロードします。第三者への配布・販売はしていません。</p>
+  </section>
+</main>
+<footer>
+  <p>This tool uses YouTube API Services. By using it you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
+  <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
+</footer>
+</body>
+</html>
